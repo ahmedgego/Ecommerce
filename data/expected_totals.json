@@ -1,0 +1,17 @@
+{
+  "revenue": 2745448362.77,
+  "revenue_from_lines": 2745448362.77,
+  "orders": 395856,
+  "customers": 98068,
+  "units": 10890702,
+  "order_lines": 2178515,
+  "products_sold": 40000,
+  "countries": 192,
+  "avg_order_value": 6935.47,
+  "orders_per_customer": 4.04,
+  "repeat_customers_pct": 92.3,
+  "returning_orders_pct": 75.2,
+  "first_date": "2020-01-01",
+  "last_date": "2022-03-10",
+  "territories": 51
+}

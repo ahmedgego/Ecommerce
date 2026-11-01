@@ -1,0 +1,39 @@
+# ---- Whitelist: publish only what is listed at the bottom ----
+*
+!.gitignore
+!README.md
+!Ecommerce.pbix
+!data/
+!data/*.parquet
+!data/expected_totals.json
+!prep/
+!prep/prep_model_data.py
+
+# ---- Never publish (kept explicit on purpose, even though the rules above already exclude them) ----
+# Brief / working notes
+_brief/
+# Power BI local caches and per-user settings
+**/.pbi/cache.abf
+**/.pbi/localSettings.json
+# Project source folders and build docs are kept local
+docs/
+Ecommerce.Report/
+Ecommerce.SemanticModel/
+Ecommerce.pbip
+# Raw source files (contain customer names and emails)
+/0000.parquet
+/0001.parquet
+# Archives and backups
+*.zip
+*.7z
+*.rar
+*.bak
+*.backup
+*~
+*.tmp
+# Secrets
+.env
+*.pfx
+*.key
+*password*
+*secret*
